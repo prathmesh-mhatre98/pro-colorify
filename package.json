@@ -1,0 +1,25 @@
+{
+  "name": "pro-colorify",
+  "version": "1.0.0",
+  "description": "Package to color your console logs",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepate": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prathmesh-mhatre98/pro-colorify.git"
+  },
+  "author": "Prathmesh Mhatre",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/prathmesh-mhatre98/pro-colorify/issues"
+  },
+  "homepage": "https://github.com/prathmesh-mhatre98/pro-colorify#readme",
+  "devDependencies": {
+    "typescript": "^5.1.3"
+  },
+  "files":["lib/**/*"]
+}
